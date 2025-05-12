@@ -2,7 +2,6 @@
 package urna;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class Urna {
     private ArrayList<Candidato> candidatos;

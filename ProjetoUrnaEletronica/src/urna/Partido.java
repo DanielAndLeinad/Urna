@@ -17,4 +17,9 @@ public class Partido {
     public String getSigla() {
         return sigla;
     }
+
+    @Override
+    public String toString() {
+        return sigla + " - " + nome;
+    }
 }
